@@ -6,4 +6,5 @@ int main(){
     std::cout << func_sum(a, b);
     std::cout << func_razn(a, b);
     std::cout << "new output";
+    std::cout << func_umn(a, b);
 }

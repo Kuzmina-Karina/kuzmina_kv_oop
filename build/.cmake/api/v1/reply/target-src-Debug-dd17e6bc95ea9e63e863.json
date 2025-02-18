@@ -11,13 +11,11 @@
 	{
 		"commands" : 
 		[
-			"add_library",
-			"include_directories"
+			"add_library"
 		],
 		"files" : 
 		[
-			"src/CMakeLists.txt",
-			"CMakeLists.txt"
+			"src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -29,15 +27,6 @@
 				"file" : 0,
 				"line" : 1,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 5,
-				"parent" : 2
 			}
 		]
 	},
@@ -48,13 +37,6 @@
 			[
 				{
 					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
-				}
-			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 3,
-					"path" : "/Users/a1/kuzmina_kv_oop/src"
 				}
 			],
 			"language" : "CXX",

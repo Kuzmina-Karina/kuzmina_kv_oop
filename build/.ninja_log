@@ -1,0 +1,4 @@
+# ninja log v6
+1	741	1739893022290826144	src/CMakeFiles/src.dir/main.cpp.o	ec5c8e05ce3b91d0
+2	744	1739893022291500735	src/CMakeFiles/src.dir/utils.cpp.o	f6eb5f335b0f8ce3
+4	155	1739893043421499218	src/libsrc.a	4d037dc9343ee998

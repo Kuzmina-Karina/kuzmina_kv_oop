@@ -1,0 +1,5 @@
+/Users/a1/kuzmina_kv_oop/build/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/CMakeFiles/rebuild_cache.dir
+/Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/src.dir
+/Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/rebuild_cache.dir

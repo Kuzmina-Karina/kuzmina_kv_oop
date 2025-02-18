@@ -5,4 +5,5 @@ int main(){
     std::cin >> a >> b;
     std::cout << func_sum(a, b);
     std::cout << func_razn(a, b);
+    std::cout << func_umn(a, b);
 }

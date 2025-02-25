@@ -13,3 +13,7 @@ int func_umn(int a, int b)
 {
     return a*b;
 }
+int func_del(int a, int b)
+{
+    return a/b;
+}

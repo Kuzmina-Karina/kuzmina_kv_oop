@@ -7,4 +7,5 @@ int main(){
     std::cout << func_razn(a, b)<< '\n';
     std::cout << "new output"<< '\n';
     std::cout << func_umn(a, b)<< '\n';
+    std::cout << func_del(a, b)<< '\n';
 }

@@ -1,0 +1,4 @@
+# ninja log v6
+7	812	1740502690888894617	src/CMakeFiles/src.dir/utils.cpp.o	86291a8ce077f4f0
+819	867	1740502691700543965	src/libsrc.a	4d037dc9343ee998
+6	819	1740502690887760499	src/CMakeFiles/src.dir/main.cpp.o	bb5f32bcb63b8cc

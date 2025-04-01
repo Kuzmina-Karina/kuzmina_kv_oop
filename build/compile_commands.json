@@ -1,13 +1,13 @@
 [
 {
-  "directory": "/Users/a1/kuzmina_kv_oop/build/src",
-  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/src.dir/main.cpp.o -c /Users/a1/kuzmina_kv_oop/src/main.cpp",
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o src/CMakeFiles/src.dir/main.cpp.o -c /Users/a1/kuzmina_kv_oop/src/main.cpp",
   "file": "/Users/a1/kuzmina_kv_oop/src/main.cpp",
   "output": "src/CMakeFiles/src.dir/main.cpp.o"
 },
 {
-  "directory": "/Users/a1/kuzmina_kv_oop/build/src",
-  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/src.dir/utils.cpp.o -c /Users/a1/kuzmina_kv_oop/src/utils.cpp",
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o src/CMakeFiles/src.dir/utils.cpp.o -c /Users/a1/kuzmina_kv_oop/src/utils.cpp",
   "file": "/Users/a1/kuzmina_kv_oop/src/utils.cpp",
   "output": "src/CMakeFiles/src.dir/utils.cpp.o"
 }

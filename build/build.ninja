@@ -160,6 +160,37 @@ build /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete: CXX_EXECUTABLE_LINKER__new_de
   TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
   TARGET_PDB = new_delete.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target unique
+
+
+#############################################
+# Order-only phony target for unique
+
+build cmake_object_order_depends_target_unique: phony || .
+
+build laba/CMakeFiles/unique.dir/unique.cpp.o: CXX_COMPILER__unique_unscanned_Debug /Users/a1/kuzmina_kv_oop/laba/unique.cpp || cmake_object_order_depends_target_unique
+  DEP_FILE = laba/CMakeFiles/unique.dir/unique.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/unique.dir
+  OBJECT_FILE_DIR = laba/CMakeFiles/unique.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unique
+
+
+#############################################
+# Link the executable /Users/a1/kuzmina_kv_oop/bin.dbg/unique
+
+build /Users/a1/kuzmina_kv_oop/bin.dbg/unique: CXX_EXECUTABLE_LINKER__unique_Debug laba/CMakeFiles/unique.dir/unique.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/unique.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/unique
+  TARGET_PDB = unique.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -191,6 +222,8 @@ build main: phony /Users/a1/kuzmina_kv_oop/bin.dbg/main
 
 build new_delete: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
 
+build unique: phony /Users/a1/kuzmina_kv_oop/bin.dbg/unique
+
 # =============================================================================
 # Folder targets.
 
@@ -206,7 +239,7 @@ build all: phony src/all laba/all
 #############################################
 # Folder: /Users/a1/kuzmina_kv_oop/build/laba
 
-build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
+build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete /Users/a1/kuzmina_kv_oop/bin.dbg/unique
 
 # =============================================================================
 

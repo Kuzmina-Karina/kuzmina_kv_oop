@@ -10,5 +10,11 @@
   "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba/CMakeFiles/new_delete.dir/new_delete.cpp.o -c /Users/a1/kuzmina_kv_oop/laba/new_delete.cpp",
   "file": "/Users/a1/kuzmina_kv_oop/laba/new_delete.cpp",
   "output": "laba/CMakeFiles/new_delete.dir/new_delete.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba/CMakeFiles/unique.dir/unique.cpp.o -c /Users/a1/kuzmina_kv_oop/laba/unique.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba/unique.cpp",
+  "output": "laba/CMakeFiles/unique.dir/unique.cpp.o"
 }
 ]

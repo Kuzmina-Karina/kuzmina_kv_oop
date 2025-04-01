@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -32,6 +33,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "laba",
+					"jsonFile" : "directory-laba-Debug-c6021c1f17d8f08b57a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "laba",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -41,12 +57,14 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "kuzmina_kv_oop",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -54,9 +72,16 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "src::@145eef247bfb46b6828c",
-					"jsonFile" : "target-src-Debug-dd17e6bc95ea9e63e863.json",
-					"name" : "src",
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-76b8b99a17c4d596543f.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "new_delete::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-new_delete-Debug-696b1ce0a7f0ffec6e87.json",
+					"name" : "new_delete",
 					"projectIndex" : 0
 				}
 			]

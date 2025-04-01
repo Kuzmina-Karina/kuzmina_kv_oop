@@ -148,6 +148,9 @@
 		},
 		{
 			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "laba/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

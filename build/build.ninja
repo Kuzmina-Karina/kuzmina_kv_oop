@@ -70,42 +70,35 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target src
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for src
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_src: phony || .
+build cmake_object_order_depends_target_main: phony || .
 
-build src/CMakeFiles/src.dir/main.cpp.o: CXX_COMPILER__src_unscanned_Debug /Users/a1/kuzmina_kv_oop/src/main.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = src/CMakeFiles/src.dir/main.cpp.o.d
+build src/CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/a1/kuzmina_kv_oop/src/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = src/CMakeFiles/main.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = src/CMakeFiles/src.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/src.dir
-
-build src/CMakeFiles/src.dir/utils.cpp.o: CXX_COMPILER__src_unscanned_Debug /Users/a1/kuzmina_kv_oop/src/utils.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = src/CMakeFiles/src.dir/utils.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = src/CMakeFiles/src.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/src.dir
+  OBJECT_DIR = src/CMakeFiles/main.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/main.dir
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target src
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the static library src/libsrc.a
+# Link the executable /Users/a1/kuzmina_kv_oop/bin.dbg/main
 
-build src/libsrc.a: CXX_STATIC_LIBRARY_LINKER__src_Debug src/CMakeFiles/src.dir/main.cpp.o src/CMakeFiles/src.dir/utils.cpp.o
-  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = src/CMakeFiles/src.dir
+build /Users/a1/kuzmina_kv_oop/bin.dbg/main: CXX_EXECUTABLE_LINKER__main_Debug src/CMakeFiles/main.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = src/CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = src/libsrc.a
-  TARGET_PDB = src.a.dbg
+  TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/main
+  TARGET_PDB = main.dbg
 
 
 #############################################
@@ -132,11 +125,71 @@ build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/a1/kuzmina_kv_oop/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new_delete
+
+
+#############################################
+# Order-only phony target for new_delete
+
+build cmake_object_order_depends_target_new_delete: phony || .
+
+build laba/CMakeFiles/new_delete.dir/new_delete.cpp.o: CXX_COMPILER__new_delete_unscanned_Debug /Users/a1/kuzmina_kv_oop/laba/new_delete.cpp || cmake_object_order_depends_target_new_delete
+  DEP_FILE = laba/CMakeFiles/new_delete.dir/new_delete.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/new_delete.dir
+  OBJECT_FILE_DIR = laba/CMakeFiles/new_delete.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_delete
+
+
+#############################################
+# Link the executable /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
+
+build /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete: CXX_EXECUTABLE_LINKER__new_delete_Debug laba/CMakeFiles/new_delete.dir/new_delete.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/new_delete.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
+  TARGET_PDB = new_delete.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build laba/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/a1/kuzmina_kv_oop/build/laba && /Applications/CMake.app/Contents/bin/ccmake -S/Users/a1/kuzmina_kv_oop -B/Users/a1/kuzmina_kv_oop/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build laba/edit_cache: phony laba/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build laba/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/a1/kuzmina_kv_oop/build/laba && /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/a1/kuzmina_kv_oop -B/Users/a1/kuzmina_kv_oop/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build laba/rebuild_cache: phony laba/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build libsrc.a: phony src/libsrc.a
+build main: phony /Users/a1/kuzmina_kv_oop/bin.dbg/main
 
-build src: phony src/libsrc.a
+build new_delete: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
 
 # =============================================================================
 # Folder targets.
@@ -146,14 +199,21 @@ build src: phony src/libsrc.a
 #############################################
 # Folder: /Users/a1/kuzmina_kv_oop/build
 
-build all: phony src/all
+build all: phony src/all laba/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/a1/kuzmina_kv_oop/build/laba
+
+build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/a1/kuzmina_kv_oop/build/src
 
-build src/all: phony src/libsrc.a
+build src/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/main
 
 # =============================================================================
 # Built-in targets
@@ -162,14 +222,14 @@ build src/all: phony src/libsrc.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/a1/kuzmina_kv_oop/CMakeLists.txt /Users/a1/kuzmina_kv_oop/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/a1/kuzmina_kv_oop/CMakeLists.txt /Users/a1/kuzmina_kv_oop/laba/CMakeLists.txt /Users/a1/kuzmina_kv_oop/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/a1/kuzmina_kv_oop/CMakeLists.txt /Users/a1/kuzmina_kv_oop/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/a1/kuzmina_kv_oop/CMakeLists.txt /Users/a1/kuzmina_kv_oop/laba/CMakeLists.txt /Users/a1/kuzmina_kv_oop/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

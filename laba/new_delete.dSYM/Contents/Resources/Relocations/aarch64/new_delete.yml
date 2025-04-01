@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     new_delete
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z4funci, symObjAddr: 0x0, symBinAddr: 0x100003BB0, symSize: 0x2B0 }
+  - { offsetInCU: 0x2DC4, offset: 0x2DC4, size: 0x8, addend: 0x0, symName: __Z4funci, symObjAddr: 0x0, symBinAddr: 0x100003BB0, symSize: 0x2B0 }
+  - { offsetInCU: 0x2E36, offset: 0x2E36, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2B0, symBinAddr: 0x100003E60, symSize: 0x2C }
+...

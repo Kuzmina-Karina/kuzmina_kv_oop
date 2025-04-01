@@ -1,5 +1,8 @@
 /Users/a1/kuzmina_kv_oop/build/CMakeFiles/edit_cache.dir
 /Users/a1/kuzmina_kv_oop/build/CMakeFiles/rebuild_cache.dir
-/Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/src.dir
+/Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/main.dir
 /Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/edit_cache.dir
 /Users/a1/kuzmina_kv_oop/build/src/CMakeFiles/rebuild_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/new_delete.dir
+/Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/rebuild_cache.dir

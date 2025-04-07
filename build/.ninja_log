@@ -1,15 +1,13 @@
 # ninja log v6
-5	490	1743517773844844168	laba/CMakeFiles/new_delete.dir/new_delete.cpp.o	6bb774c9b5804dac
-0	330	1743516828469839233	src/CMakeFiles/main.dir/main.cpp.o	bcf78e98874e36a6
-441	465	1743516660357010699	src/libsrc.a	4d037dc9343ee998
-330	431	1743516828799767138	src/main	33381f264f24f103
-326	431	1743516828795840436	laba/new_delete	a2cdfcd4f23598cf
-0	277	1743516671249990585	laba/CMakeFiles/src.dir/main.cpp.o	97855296fa552d57
-277	299	1743516671526288687	laba/libsrc.a	b74f7d5c5dce8255
-1	441	1743516659916345937	src/CMakeFiles/src.dir/main.cpp.o	bb5f32bcb63b8cc
-490	590	1743517774329964972	/Users/a1/kuzmina_kv_oop/bin.dbg/new_delete	4f46d3a8941e03aa
-2	438	1743516659918107351	src/CMakeFiles/src.dir/utils.cpp.o	86291a8ce077f4f0
-9	107	1743517198321680668	/Users/a1/kuzmina_kv_oop/bin.dbg/main	c257467884eda3fd
-1	270	1743516671250227001	laba/CMakeFiles/src.dir/utils.cpp.o	26c425bdf5ac1fe8
-9	430	1743520293663936670	laba/CMakeFiles/unique.dir/unique.cpp.o	beecab23dbdcef8c
-430	529	1743520294085437819	/Users/a1/kuzmina_kv_oop/bin.dbg/unique	7511e5c87a0cebc1
+1	304	1744046532072386938	laba/CMakeFiles/new_delete.dir/new_delete.cpp.o	6bb774c9b5804dac
+1	313	1744046532072179149	src/CMakeFiles/main.dir/main.cpp.o	bcf78e98874e36a6
+1	307	1744046532072499394	laba/CMakeFiles/unique.dir/unique.cpp.o	beecab23dbdcef8c
+2	39	1744046538794138379	/Users/a1/kuzmina_kv_oop/bin.dbg/main	c257467884eda3fd
+2	39	1744046538794231294	/Users/a1/kuzmina_kv_oop/bin.dbg/new_delete	4f46d3a8941e03aa
+2	39	1744046538794320001	/Users/a1/kuzmina_kv_oop/bin.dbg/unique	7511e5c87a0cebc1
+3	252	1744046573256249669	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
+252	280	1744046573505497628	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
+3	385	1744046694613956306	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
+385	414	1744046694995331665	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
+4	237	1744046716194442686	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
+237	268	1744046716427589031	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d

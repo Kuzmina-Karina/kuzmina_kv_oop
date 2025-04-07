@@ -47,7 +47,8 @@
 					"targetIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -66,7 +67,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -84,6 +86,13 @@
 					"id" : "new_delete::@4af4bc5df75784144dd7",
 					"jsonFile" : "target-new_delete-Debug-696b1ce0a7f0ffec6e87.json",
 					"name" : "new_delete",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "share::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-share-Debug-72c175dcca922051b702.json",
+					"name" : "share",
 					"projectIndex" : 0
 				},
 				{

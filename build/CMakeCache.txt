@@ -218,15 +218,6 @@ kuzmina_kv_oop_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 kuzmina_kv_oop_SOURCE_DIR:STATIC=/Users/a1/kuzmina_kv_oop
 
-//Value Computed by CMake
-laba3_OOP_BINARY_DIR:STATIC=/Users/a1/kuzmina_kv_oop/build
-
-//Value Computed by CMake
-laba3_OOP_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-laba3_OOP_SOURCE_DIR:STATIC=/Users/a1/kuzmina_kv_oop
-
 
 ########################
 # INTERNAL cache entries

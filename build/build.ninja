@@ -191,6 +191,37 @@ build /Users/a1/kuzmina_kv_oop/bin.dbg/unique: CXX_EXECUTABLE_LINKER__unique_Deb
   TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/unique
   TARGET_PDB = unique.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target share
+
+
+#############################################
+# Order-only phony target for share
+
+build cmake_object_order_depends_target_share: phony || .
+
+build laba/CMakeFiles/share.dir/share.cpp.o: CXX_COMPILER__share_unscanned_Debug /Users/a1/kuzmina_kv_oop/laba/share.cpp || cmake_object_order_depends_target_share
+  DEP_FILE = laba/CMakeFiles/share.dir/share.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/share.dir
+  OBJECT_FILE_DIR = laba/CMakeFiles/share.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target share
+
+
+#############################################
+# Link the executable /Users/a1/kuzmina_kv_oop/bin.dbg/share
+
+build /Users/a1/kuzmina_kv_oop/bin.dbg/share: CXX_EXECUTABLE_LINKER__share_Debug laba/CMakeFiles/share.dir/share.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/share.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/share
+  TARGET_PDB = share.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -222,6 +253,8 @@ build main: phony /Users/a1/kuzmina_kv_oop/bin.dbg/main
 
 build new_delete: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete
 
+build share: phony /Users/a1/kuzmina_kv_oop/bin.dbg/share
+
 build unique: phony /Users/a1/kuzmina_kv_oop/bin.dbg/unique
 
 # =============================================================================
@@ -239,7 +272,7 @@ build all: phony src/all laba/all
 #############################################
 # Folder: /Users/a1/kuzmina_kv_oop/build/laba
 
-build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete /Users/a1/kuzmina_kv_oop/bin.dbg/unique
+build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete /Users/a1/kuzmina_kv_oop/bin.dbg/unique /Users/a1/kuzmina_kv_oop/bin.dbg/share
 
 # =============================================================================
 

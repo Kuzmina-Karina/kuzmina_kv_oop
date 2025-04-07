@@ -222,6 +222,37 @@ build /Users/a1/kuzmina_kv_oop/bin.dbg/share: CXX_EXECUTABLE_LINKER__share_Debug
   TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/share
   TARGET_PDB = share.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target weak
+
+
+#############################################
+# Order-only phony target for weak
+
+build cmake_object_order_depends_target_weak: phony || .
+
+build laba/CMakeFiles/weak.dir/weak.cpp.o: CXX_COMPILER__weak_unscanned_Debug /Users/a1/kuzmina_kv_oop/laba/weak.cpp || cmake_object_order_depends_target_weak
+  DEP_FILE = laba/CMakeFiles/weak.dir/weak.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/weak.dir
+  OBJECT_FILE_DIR = laba/CMakeFiles/weak.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target weak
+
+
+#############################################
+# Link the executable /Users/a1/kuzmina_kv_oop/bin.dbg/weak
+
+build /Users/a1/kuzmina_kv_oop/bin.dbg/weak: CXX_EXECUTABLE_LINKER__weak_Debug laba/CMakeFiles/weak.dir/weak.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = laba/CMakeFiles/weak.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/a1/kuzmina_kv_oop/bin.dbg/weak
+  TARGET_PDB = weak.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -257,6 +288,8 @@ build share: phony /Users/a1/kuzmina_kv_oop/bin.dbg/share
 
 build unique: phony /Users/a1/kuzmina_kv_oop/bin.dbg/unique
 
+build weak: phony /Users/a1/kuzmina_kv_oop/bin.dbg/weak
+
 # =============================================================================
 # Folder targets.
 
@@ -272,7 +305,7 @@ build all: phony src/all laba/all
 #############################################
 # Folder: /Users/a1/kuzmina_kv_oop/build/laba
 
-build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete /Users/a1/kuzmina_kv_oop/bin.dbg/unique /Users/a1/kuzmina_kv_oop/bin.dbg/share
+build laba/all: phony /Users/a1/kuzmina_kv_oop/bin.dbg/new_delete /Users/a1/kuzmina_kv_oop/bin.dbg/unique /Users/a1/kuzmina_kv_oop/bin.dbg/share /Users/a1/kuzmina_kv_oop/bin.dbg/weak
 
 # =============================================================================
 

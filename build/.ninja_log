@@ -5,9 +5,9 @@
 2	39	1744046538794138379	/Users/a1/kuzmina_kv_oop/bin.dbg/main	c257467884eda3fd
 2	39	1744046538794231294	/Users/a1/kuzmina_kv_oop/bin.dbg/new_delete	4f46d3a8941e03aa
 2	39	1744046538794320001	/Users/a1/kuzmina_kv_oop/bin.dbg/unique	7511e5c87a0cebc1
-3	252	1744046573256249669	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
-252	280	1744046573505497628	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
-3	385	1744046694613956306	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
-385	414	1744046694995331665	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
 4	237	1744046716194442686	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
 237	268	1744046716427589031	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
+2	264	1744047664217652501	laba/CMakeFiles/weak.dir/weak.cpp.o	4101b6b4805326d7
+264	365	1744047664478810446	/Users/a1/kuzmina_kv_oop/bin.dbg/weak	92adbecf0816df00
+3	246	1744047762065558186	laba/CMakeFiles/weak.dir/weak.cpp.o	4101b6b4805326d7
+246	276	1744047762308042293	/Users/a1/kuzmina_kv_oop/bin.dbg/weak	92adbecf0816df00

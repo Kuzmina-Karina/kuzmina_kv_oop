@@ -22,5 +22,11 @@
   "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba/CMakeFiles/share.dir/share.cpp.o -c /Users/a1/kuzmina_kv_oop/laba/share.cpp",
   "file": "/Users/a1/kuzmina_kv_oop/laba/share.cpp",
   "output": "laba/CMakeFiles/share.dir/share.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba/CMakeFiles/weak.dir/weak.cpp.o -c /Users/a1/kuzmina_kv_oop/laba/weak.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba/weak.cpp",
+  "output": "laba/CMakeFiles/weak.dir/weak.cpp.o"
 }
 ]

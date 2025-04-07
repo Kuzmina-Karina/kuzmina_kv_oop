@@ -6,5 +6,6 @@
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/new_delete.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/unique.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/share.dir
+/Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/weak.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/edit_cache.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/rebuild_cache.dir

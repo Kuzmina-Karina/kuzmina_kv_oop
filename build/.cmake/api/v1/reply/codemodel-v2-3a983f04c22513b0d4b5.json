@@ -48,7 +48,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,7 +69,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -100,6 +102,13 @@
 					"id" : "unique::@4af4bc5df75784144dd7",
 					"jsonFile" : "target-unique-Debug-b2496e049ac9dabfb7d7.json",
 					"name" : "unique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "weak::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-weak-Debug-1f96477d803d2d5f6c43.json",
+					"name" : "weak",
 					"projectIndex" : 0
 				}
 			]

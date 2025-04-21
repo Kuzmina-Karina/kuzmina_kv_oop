@@ -1,13 +1,11 @@
 # ninja log v6
-1	304	1744046532072386938	laba/CMakeFiles/new_delete.dir/new_delete.cpp.o	6bb774c9b5804dac
-1	313	1744046532072179149	src/CMakeFiles/main.dir/main.cpp.o	bcf78e98874e36a6
-1	307	1744046532072499394	laba/CMakeFiles/unique.dir/unique.cpp.o	beecab23dbdcef8c
-2	39	1744046538794138379	/Users/a1/kuzmina_kv_oop/bin.dbg/main	c257467884eda3fd
+474	572	1744732726824726539	/Users/a1/kuzmina_kv_oop/bin.dbg/weak	92adbecf0816df00
+12	474	1744732726362495939	laba/CMakeFiles/weak.dir/weak.cpp.o	4101b6b4805326d7
+466	572	1744732726816732213	/Users/a1/kuzmina_kv_oop/bin.dbg/unique	7511e5c87a0cebc1
+4	253	1744724901841772692	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
+253	281	1744724902090780278	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
 2	39	1744046538794231294	/Users/a1/kuzmina_kv_oop/bin.dbg/new_delete	4f46d3a8941e03aa
-2	39	1744046538794320001	/Users/a1/kuzmina_kv_oop/bin.dbg/unique	7511e5c87a0cebc1
-4	237	1744046716194442686	laba/CMakeFiles/share.dir/share.cpp.o	922fa0d2fbf98877
-237	268	1744046716427589031	/Users/a1/kuzmina_kv_oop/bin.dbg/share	a79638656535f82d
-2	264	1744047664217652501	laba/CMakeFiles/weak.dir/weak.cpp.o	4101b6b4805326d7
-264	365	1744047664478810446	/Users/a1/kuzmina_kv_oop/bin.dbg/weak	92adbecf0816df00
-3	246	1744047762065558186	laba/CMakeFiles/weak.dir/weak.cpp.o	4101b6b4805326d7
-246	276	1744047762308042293	/Users/a1/kuzmina_kv_oop/bin.dbg/weak	92adbecf0816df00
+2	39	1744046538794138379	/Users/a1/kuzmina_kv_oop/bin.dbg/main	c257467884eda3fd
+11	466	1744732726361304850	laba/CMakeFiles/unique.dir/unique.cpp.o	beecab23dbdcef8c
+1	313	1744046532072179149	src/CMakeFiles/main.dir/main.cpp.o	bcf78e98874e36a6
+1	304	1744046532072386938	laba/CMakeFiles/new_delete.dir/new_delete.cpp.o	6bb774c9b5804dac

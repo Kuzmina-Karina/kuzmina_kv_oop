@@ -8,13 +8,13 @@ struct temp{
 };
 
 int main(){
-    auto ptr1 = std::make_shared<temp>(0);
+    auto ptr1 = std::make_shared<temp>(100);
     std::cout << "Кол-во владельцев: " << ptr1.use_count() << '\n';
-    while(ptr1->val<200){
+    {
         auto ptr2 = ptr1;
         std::cout << "Кол-во владельцев: " << ptr1.use_count() << '\n';
         ptr2->val += 100;
-        std::cout << "Значение " << ptr2->val << '\n';
+        std::cout << "Значение " << ptr1->val << '\n';
     }
     std::cout << "Кол-во владельцев: " << ptr1.use_count() << '\n';
     return 0;

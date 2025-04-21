@@ -28,4 +28,5 @@ int main() {
     } else {
         std::cout << "мёртв(" << '\n';
     }
+return 0;
 }

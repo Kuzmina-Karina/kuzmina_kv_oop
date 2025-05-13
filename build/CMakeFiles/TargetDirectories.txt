@@ -9,3 +9,16 @@
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/weak.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/edit_cache.dir
 /Users/a1/kuzmina_kv_oop/build/laba/CMakeFiles/rebuild_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba4/CMakeFiles/number1.dir
+/Users/a1/kuzmina_kv_oop/build/laba4/CMakeFiles/number2.dir
+/Users/a1/kuzmina_kv_oop/build/laba4/CMakeFiles/number3.dir
+/Users/a1/kuzmina_kv_oop/build/laba4/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba4/CMakeFiles/rebuild_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba5/CMakeFiles/nomer1.dir
+/Users/a1/kuzmina_kv_oop/build/laba5/CMakeFiles/nomer2.dir
+/Users/a1/kuzmina_kv_oop/build/laba5/CMakeFiles/nomer3.dir
+/Users/a1/kuzmina_kv_oop/build/laba5/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba5/CMakeFiles/rebuild_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba6/CMakeFiles/strateg.dir
+/Users/a1/kuzmina_kv_oop/build/laba6/CMakeFiles/edit_cache.dir
+/Users/a1/kuzmina_kv_oop/build/laba6/CMakeFiles/rebuild_cache.dir

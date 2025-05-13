@@ -151,6 +151,15 @@
 		},
 		{
 			"path" : "laba/CMakeLists.txt"
+		},
+		{
+			"path" : "laba4/CMakeLists.txt"
+		},
+		{
+			"path" : "laba5/CMakeLists.txt"
+		},
+		{
+			"path" : "laba6/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

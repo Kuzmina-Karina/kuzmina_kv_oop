@@ -28,5 +28,47 @@
   "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba/CMakeFiles/weak.dir/weak.cpp.o -c /Users/a1/kuzmina_kv_oop/laba/weak.cpp",
   "file": "/Users/a1/kuzmina_kv_oop/laba/weak.cpp",
   "output": "laba/CMakeFiles/weak.dir/weak.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba4/CMakeFiles/number1.dir/number1.cpp.o -c /Users/a1/kuzmina_kv_oop/laba4/number1.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba4/number1.cpp",
+  "output": "laba4/CMakeFiles/number1.dir/number1.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba4/CMakeFiles/number2.dir/number2.cpp.o -c /Users/a1/kuzmina_kv_oop/laba4/number2.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba4/number2.cpp",
+  "output": "laba4/CMakeFiles/number2.dir/number2.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba4/CMakeFiles/number3.dir/number3.cpp.o -c /Users/a1/kuzmina_kv_oop/laba4/number3.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba4/number3.cpp",
+  "output": "laba4/CMakeFiles/number3.dir/number3.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba5/CMakeFiles/nomer1.dir/nomer1.cpp.o -c /Users/a1/kuzmina_kv_oop/laba5/nomer1.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba5/nomer1.cpp",
+  "output": "laba5/CMakeFiles/nomer1.dir/nomer1.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba5/CMakeFiles/nomer2.dir/nomer2.cpp.o -c /Users/a1/kuzmina_kv_oop/laba5/nomer2.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba5/nomer2.cpp",
+  "output": "laba5/CMakeFiles/nomer2.dir/nomer2.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba5/CMakeFiles/nomer3.dir/nomer3.cpp.o -c /Users/a1/kuzmina_kv_oop/laba5/nomer3.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba5/nomer3.cpp",
+  "output": "laba5/CMakeFiles/nomer3.dir/nomer3.cpp.o"
+},
+{
+  "directory": "/Users/a1/kuzmina_kv_oop/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o laba6/CMakeFiles/strateg.dir/strateg.cpp.o -c /Users/a1/kuzmina_kv_oop/laba6/strateg.cpp",
+  "file": "/Users/a1/kuzmina_kv_oop/laba6/strateg.cpp",
+  "output": "laba6/CMakeFiles/strateg.dir/strateg.cpp.o"
 }
 ]

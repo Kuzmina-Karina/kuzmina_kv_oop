@@ -15,5 +15,9 @@ else()
   set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELWITHDEBINFO ${CMAKE_CURRENT_SOURCE_DIR}/bin.${build_suffix}.relwithdbg)
 endif()
 add_subdirectory(src) 
-add_subdirectory(laba) #добавляет папку src как поддиректорию проекта.
+add_subdirectory(laba)
+add_subdirectory(laba4) 
+add_subdirectory(laba5)  
+add_subdirectory(laba6) 
+#добавляет папку src как поддиректорию проекта.
 #add_executable(kuzmina_kv_oop main.cpp utils.cpp)  # исполняемые файлы 

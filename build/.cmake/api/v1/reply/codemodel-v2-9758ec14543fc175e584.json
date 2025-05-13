@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "laba",
+					"jsonFile" : "directory-laba-Debug-c6021c1f17d8f08b57a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "laba",
+					"targetIndexes" : 
+					[
+						1,
+						8,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "laba4",
+					"jsonFile" : "directory-laba4-Debug-da19b95369d870b73ecd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "laba4",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "laba5",
+					"jsonFile" : "directory-laba5-Debug-7bea78a858079491e6b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "laba5",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "laba6",
+					"jsonFile" : "directory-laba6-Debug-229d1f9949a5a429834a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "laba6",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "kuzmina_kv_oop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-76b8b99a17c4d596543f.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "new_delete::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-new_delete-Debug-696b1ce0a7f0ffec6e87.json",
+					"name" : "new_delete",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nomer1::@9546a3a921dddd67b181",
+					"jsonFile" : "target-nomer1-Debug-d0d0273d056b7574dd07.json",
+					"name" : "nomer1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nomer2::@9546a3a921dddd67b181",
+					"jsonFile" : "target-nomer2-Debug-97e22f6cdbf9a6b9f4c1.json",
+					"name" : "nomer2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nomer3::@9546a3a921dddd67b181",
+					"jsonFile" : "target-nomer3-Debug-9e8cc4197ae1f078839c.json",
+					"name" : "nomer3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "number1::@6d7dfcb1f29bc265ed5e",
+					"jsonFile" : "target-number1-Debug-1e80a752f82c9a320ebd.json",
+					"name" : "number1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "number2::@6d7dfcb1f29bc265ed5e",
+					"jsonFile" : "target-number2-Debug-e539acf9756650cd5493.json",
+					"name" : "number2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "number3::@6d7dfcb1f29bc265ed5e",
+					"jsonFile" : "target-number3-Debug-1e174fd6f7d0dd2bc26e.json",
+					"name" : "number3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "share::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-share-Debug-72c175dcca922051b702.json",
+					"name" : "share",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strateg::@3eb64be787b9ab4a5323",
+					"jsonFile" : "target-strateg-Debug-3e9fb5c5bb469959c029.json",
+					"name" : "strateg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "unique::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-unique-Debug-b2496e049ac9dabfb7d7.json",
+					"name" : "unique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "weak::@4af4bc5df75784144dd7",
+					"jsonFile" : "target-weak-Debug-1f96477d803d2d5f6c43.json",
+					"name" : "weak",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/a1/kuzmina_kv_oop/build",
+		"source" : "/Users/a1/kuzmina_kv_oop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
